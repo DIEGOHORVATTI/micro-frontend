@@ -1,21 +1,8 @@
 {
   "name": "my-microservice",
   "private": false,
-  "version": "1.0.0",
+  "version": "0.0.2",
   "type": "module",
-  "main": "dist/my-microservice.umd.js",
-  "module": "dist/my-microservice.js",
-  "types": "dist/main.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/my-microservice.js",
-      "require": "./dist/my-microservice.umd.js",
-      "types": "./dist/main.d.ts"
-    }
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
